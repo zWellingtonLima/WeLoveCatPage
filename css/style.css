@@ -1,3 +1,5 @@
+/* Reset Styles */
+
 *{
   margin: 0;
   padding: 0;
@@ -8,10 +10,33 @@ html, body {
   margin: 0 auto;
 }
 
-menu{
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Estilização Menu */
+
+.header{
+  max-width: 1380px;
+  border: 1px solid red;
+}
+
+.menu{
+  display: flex;
+  align-items: center;
+}
+
+.navegacao-interna{
   display: flex;
 }
 
+/* #login{
+} */
+
 .container{
-  max-width: 1380px;
+  max-width: 1080px;
 }
